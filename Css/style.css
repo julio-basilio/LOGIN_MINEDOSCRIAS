@@ -1,0 +1,130 @@
+/* Importação de fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C82113; /* Vermelho do fundo */
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#Formulario {
+    background-color: white;
+    width: 100%;
+    max-width: 850px;
+    padding: 60px 80px;
+    border-radius: 90px; /* Bordas bem arredondadas como na imagem */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Cabeçalho do Login */
+.form-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-header h1 {
+    font-size: 55px;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.form-header h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+/* Corpo do Formulário */
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    width: 180px; /* Alinha todos os inputs na mesma coluna */
+}
+
+.input-group input {
+    flex: 1;
+    background-color: #17B6CC; /* Azul ciano dos campos */
+    border: none;
+    border-radius: 12px;
+    height: 50px;
+    padding: 0 15px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* Estilização do texto de dentro do input (placeholder) */
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+}
+
+/* Remove a borda preta padrão ao clicar no input */
+.input-group input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(23, 182, 204, 0.6);
+}
+
+/* Botões */
+.form-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+button {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.btn-enviar {
+    background-color: #B2C911; /* Verde limão */
+    color: #000000;
+    font-size: 24px;
+    padding: 12px 45px;
+    border-radius: 15px;
+}
+
+.btn-esqueci {
+    background-color: #991207; /* Vermelho escuro */
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.2;
+}
