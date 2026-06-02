@@ -11,14 +11,6 @@
   <img src="https://img.shields.io/github/last-commit/julio-basilio/LOGIN_MINEDOSCRIAS?style=for-the-badge" />
 </p></div>---
 
-📸 Preview
-
-<div align="center">Adicione aqui uma captura de tela do projeto
-
-/assets/preview.png
-
-</div>---
-
 🎯 Objetivo
 
 Este projeto começou com uma simples tela de login feita em PHP, JavaScript e CSS.
