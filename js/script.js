@@ -6,7 +6,7 @@ function Login(event) {
     let nome = document.getElementById("Name").value;
 
     // Compara a variável correta (nome) com o valor desejado
-    if (nome === "Julio") {
+    if (nome === "nome") {
         window.location.href = "https://google.com";
     } else {
         alert("Nome incorreto! Tente 'Julio' para testar o redirecionamento.");
